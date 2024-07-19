@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "init": "pnpm i",
+    "init": "npm install",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
@@ -36,6 +36,6 @@
     "vue-tsc": "^2.0.21"
   },
   "stackblitz": {
-    "startCommand": "pnpm install && pnpm run dev"
+    "startCommand": "npm install && npm run dev"
   }
 }
